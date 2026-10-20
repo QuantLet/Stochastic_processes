@@ -9,11 +9,11 @@ Name of Quantlet: randomwalk_ar1
 
 Published in: Stochastic processes
 
-Description: Similarity of both random walk and AR-1 (autoregressive process) to actual stock prices.
+Description: Similarity of both random walk and AR-1 (autoregressive process) to actual stock prices. The blue path is a random walk over 50 time points. The red path is a First-order autoregressive (AR-1) process over 50 time points.
 
-Model: X_t = 100 + r(X_t-1 - 100) + e_t. Mean reverting to 100, 0 < r < 1.
+Model: X_t = 100 + r(X_t-1 - 100) + e_t. Mean reverting to 100, 0 < r < 1. In each case epsilon terms/innovations are normally distributed - N(0,1).'
 
-Keywords: approximation, autoregressive, normal-distribution, plot, random, random-number-generation, random-walk, similarity, simulation,
+Keywords: approximation, autoregressive, normal-distribution, plot, random, random-number-generation, random-walk, similarity, simulation, standard-normal, stochastic-process, time-series
 
 See also: ar1_process, random_walk
 
@@ -27,12 +27,12 @@ Input:
 - rho: First AR-parameter (rho * X_t-1)
 
 Example: 
-- 1: 'Realized path for the random walk and AR(1) : simulation 1, rho = 0.8
-- 2: 'Realized path for the random walk and AR(1) : simulation 2, rho = 0.8
-- 3: 'Realized path for the random walk and AR(1) : simulation 3, rho = 0.8
-- 4: 'Realized path for the random walk and AR(1) : simulation 1, rho = 0.95
-- 5: 'Realized path for the random walk and AR(1) : simulation 2, rho = 0.95
-- 6: 'Realized path for the random walk and AR(1) : simulation 3, rho = 0.95
+- 1: 'Realized path for the random walk and AR(1) : simulation 1, rho = 0.8'
+- 2: 'Realized path for the random walk and AR(1) : simulation 2, rho = 0.8'
+- 3: 'Realized path for the random walk and AR(1) : simulation 3, rho = 0.8'
+- 4: 'Realized path for the random walk and AR(1) : simulation 1, rho = 0.95'
+- 5: 'Realized path for the random walk and AR(1) : simulation 2, rho = 0.95'
+- 6: 'Realized path for the random walk and AR(1) : simulation 3, rho = 0.95'
 
 ```
 <div align="center">
