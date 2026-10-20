@@ -11,7 +11,7 @@ Published in: Stochastic processes
 
 Description: Simulates the path of a First-order autoregressive (AR-1) process over 50 time points.
 
-Epsilon terms/innovations are normally distributed - N(0,1). Model: X_t = 100 + r(X_t-1 - 100) + e_t. Mean reverting to 100, 0 < r < 1.
+Epsilon terms/innovations are normally distributed - N(0,1). Model: X_t = 100 + r(X_t-1 - 100) + e_t. Mean reverting to 100, 0 < r < 1.'
 
 Keywords: autoregressive, normal-distribution, plot, random, random-number-generation, simulation, standard-normal, stochastic-process, time-series
 
